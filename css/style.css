@@ -1,0 +1,168 @@
+@import url(./fonts.css);
+*{
+    font-family: 'RobotoCondensed';
+}
+.wrap{
+    min-height: 750px;
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar-links__a{
+    text-decoration: none;
+}
+.navbar-links__a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+/* header */
+.header{
+    padding-top: 152px;
+}
+.header-title{
+    font-size: 250px;
+    font-family: "Balqis";
+    line-height: 150px;
+
+}
+.header-subtitle{
+    font-weight: 300;
+    font-size: 56px;
+    font-style: italic;
+}
+/* fairy */
+.fairy-title{
+    font-size: 96px;
+    font-family: "Balqis";
+    color: #E2AB3F;
+    line-height: 48px;
+}
+.fairy-subtitle{
+    font-size: 24px;
+    font-style: italic;
+}
+/* mashurt */
+.mashurt{
+    margin-top: 229px;
+}
+.mashurt-title{
+    font-size: 96px;
+    font-family: "Balqis";
+    color: #E2AB3F;
+    line-height: 48px;
+}
+.mashurt-subtitle{
+    font-size: 24px;
+    font-style: italic;
+}
+.mashurt-bttn{
+    max-width: 280px;
+    height: 50px;
+    border: 1px ;  
+    border: 1px solid #E2AB3F
+}
+.Hotel{
+    margin-top: 185px;
+}
+.Havo{
+    margin-top: 201px;
+}
+.Havo-title{
+    color: #000000;
+}
+.Havo-input{
+    max-width: 383px;
+    height: 50px;
+    border: 1px solid #E2AB3F
+}
+.Havo-bttn{
+    width: 280px;
+    height: 50px;
+    border: 1px solid #E2AB3F
+    
+}
+.footer{
+    margin-top: 200px;
+    min-height: 1000px;
+    background-image: url(../images/footer-bg.jpg);
+}
+.footer-img{
+    min-height: 527px;
+    margin-top: 96px;
+    background-image: url(../images/white-balloon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.footer-title{
+    font-size: 96px;
+    font-family: "Balqis";
+    color: #E2AB3F;
+    line-height: 48px;
+}
+.footer-h2{
+    font-family: Balqis;
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 114.98px;
+    color: #000000;
+}
+@media(max-width: 1400px){
+    /* .footer-h2{
+        font-size: 70px;
+    } */
+}
+@media(max-width: 1200px){
+    /* .footer-h2{
+        font-size: 60px;
+    } */
+    .header-title{
+        font-size: 150px;
+        line-height: 75px;
+    }
+    .header-subtitle{
+        font-size: 36px;
+    }
+}
+@media(max-width: 992px){
+  
+}
+@media(max-width: 768px){
+    .footer-title{
+        font-size: 70px;
+    }
+    .footer-h2{
+        font-size: 70px;
+    }
+    .header-title{
+        font-size: 75px;
+        line-height: 40px;
+    }
+  
+    .header-subtitle{
+        font-size: 24px;
+
+    }
+}
+@media (max-width: 480px){
+    .footer-h2{
+        font-size: 55px;
+    }
+}
+@media (max-width: 480px){
+    .footer-h2{
+        font-size: 40px;
+    }
+    .footer-title{
+        font-size: 50px;
+    }
+    .fairy-title{
+        font-size: 70px;
+    }
+    .mashurt-title{
+        font-size: 70px;
+    }
+    
+
+    
+}
